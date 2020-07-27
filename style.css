@@ -23,6 +23,8 @@ body {
 .container span::before {
   content: var(--l);
   position: absolute;
+  height: 200%;
+  width: 300px;
   transform: scale(1.1);
   filter: blur(15px);
 }
