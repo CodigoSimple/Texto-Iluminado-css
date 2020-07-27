@@ -23,14 +23,14 @@ body {
 .container span::before {
   content: var(--l);
   position: absolute;
-  height: 200%;
-  width: 300px;
   transform: scale(1.1);
   filter: blur(15px);
 }
 .container span::after {
   content: var(--l);
   position: absolute;
+  height: 200%;
+  width: 300px;
   top: 80%;
   left: 0;
   filter: blur(30px);
